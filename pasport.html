@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Паспорт</h1>
+
+
+
+    <main>
+        <div class="passport-container">
+            <img src="pasport.jpg" alt="Паспорт РФ">
+
+            <img id="photo" src="face.png" alt="Фото Сабинина Г.Н." title="Это фотография Григория на паспорт">
+
+            <div class="text" id="issued">ГУ МВД РОССИИ ПО Г.МОСКВЕ</div>
+            <div class="text" id="surname">Сабинин</div>
+            <div class="text" id="name">Григорий</div>
+            <div class="text" id="father">Николаевич</div>
+            <div class="text" id="gender">Муж.</div>
+            <div class="text" id="birthplace">г. Москва</div>
+        </div>
+
+        <div class="button-container">
+            <button id="translateButton">Поменять</button>
+        </div>
+    </main>
+
+    <h1>Личные данные паспорта</h1>
+    <p>Фамилия: <span id="lastName">Иванов</span></p>
+    <p>Имя: <span id="firstName">Иван</span></p>
+    <p>Год рождения: <span id="birthYear">2000</span></p>
+    <span id="new">это тестовое окно</span>
+    
+    <button id="getInfoButton">Получить информацию из DOM:</button>
+    
+    <div id="info"></div>
+
+
+    <a href="#top" class="back-to-top">
+        <img src="image.png" alt="Наверх" height="20px" width="20px"/>
+    </a>
+    <script src="pasport.js"></script>
+</body>
+</html>

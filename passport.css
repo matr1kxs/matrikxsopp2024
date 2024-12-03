@@ -1,0 +1,39 @@
+.passport-container {
+position:relative;}
+
+.text {
+position:absolute;}
+
+
+
+
+
+
+
+
+
+#issued {
+top:70px;
+left:150px;}
+#surname {
+top:403px;
+left:290px;}
+#name {
+top:459px;
+left:290px;}
+#father {
+top:485px;
+left:275px;}
+#gender {
+top:513px;
+left:200px;}
+#birthplace {
+top:539px;
+left:289px;}
+
+#photo {
+position:absolute;
+width:150px;
+height:187px;
+top:432px;
+left:20px;}
